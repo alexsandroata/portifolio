@@ -1,5 +1,29 @@
 @charset "UTF-8";
 
-body{
+:root{
+
+}
+
+*{
     
+}
+
+header{
+    background-image: radial-gradient(circle at center, #45214A, #28132b);
+}
+
+h1.principal{
+    display: inline-block;
+}
+
+header h1{
+    color: white;
+}
+
+header h2{
+    color: white;
+}
+
+header {
+    color: white;
 }
