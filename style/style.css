@@ -5,11 +5,13 @@
 }
 
 *{
-    
+    margin: 0px;
+    padding: 0px;
 }
 
 header{
     background-image: radial-gradient(circle at center, #45214A, #28132b);
+    text-align: center;
 }
 
 h1.principal{
