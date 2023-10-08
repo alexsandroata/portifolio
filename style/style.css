@@ -264,3 +264,40 @@ main .sobre {
 
     }  
 }
+
+/* RESPONSIVO */
+
+@media(max-width: 992px) {
+
+    /* SECTION DOWNLOAD CV*/
+
+    .section-div img {
+        display: none;
+    }
+
+    .section-div {
+        background-image: url(../img/photo.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    header .navegacao-primaria {
+        display: none;
+    }
+
+    header i {
+        color: #f7f7f7;
+        font-size: 3rem;
+    }
+
+    /* SEÇÃO PRINCIPAL SOBRE MIM */
+
+    .sobre img {
+        grid-column: 1/-1;
+        justify-self: center;
+    }
+
+    .sobre-conteudo {
+        grid-column: 1/-1;
+    }
+}
