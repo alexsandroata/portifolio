@@ -14,6 +14,8 @@ function escrevendoLetra () {
     ativaLetra(titulo)
 }
 
+escrevendoLetra();
+
 const ativaMenu = document.querySelector('.fa-bars')
 const navMenu = document.querySelector('header .navegacao-primaria')
 
